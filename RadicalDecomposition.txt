@@ -1,4 +1,4 @@
-// This program performs the Magma computations to check that the two schemes \tilde{X} and \tilde{Y} are the same over Z[1/2].
+// This program performs the Magma computations to check that the two schemes T and S are the same over Z[1/2].
 
 // The Magma computations are performed over Rationals() but later the results are checked to be in fact over Z[1/2].
 F:=RationalField();
