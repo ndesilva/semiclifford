@@ -1,15 +1,15 @@
-Magma V2.26-12    Mon Sep 18 2023 16:31:20 on cecm-gaby [Seed = 928677985]
+Magma V2.26-12    Tue Mar 19 2024 18:31:32 on cecm-gaby [Seed = 2078548739]
 Type ? for help.  Type <Ctrl>-D to quit.
-[ 8, 8, 9, 9, 9 ]
-[ 8, 8, 9 ]
-[ 8, 8, 9, 9, 9 ]
-[ 8, 8, 9 ]
+[ 16, 16, 17, 17, 17 ]
+[ 16, 16, 17 ]
+[ 16, 16, 17, 17, 17 ]
+[ 16, 16, 17 ]
 [
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*q12*d23,
@@ -58,11 +58,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d41*q41 + 1/2*d43*q42,
         d42*q42 + 1/2*d43*q41
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*d33*q42 - 1/2*q32*d43,
@@ -113,11 +113,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d33*d42*q42 + 1/2*d33*d43*q41 - 1/2*q31*d43^2 - q32*d42*d43,
         d41*d42 - 1/4*d43^2
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -137,11 +137,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d33*q42 - q32*d43,
         q31*q42 - q32*q41
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -153,11 +153,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         q41,
         q42
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -197,11 +197,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
     ]
 ]
 [
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*q12*d23,
@@ -250,11 +250,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d41*q41 + 1/2*d43*q42,
         d42*q42 + 1/2*d43*q41
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*d33*q42 - 1/2*q32*d43,
@@ -305,11 +305,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d33*d42*q42 + 1/2*d33*d43*q41 - 1/2*q31*d43^2 - q32*d42*d43,
         d41*d42 - 1/4*d43^2
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -331,11 +331,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
     ]
 ]
 [
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*q12*d23,
@@ -377,11 +377,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         q31*q42 - q32*q41,
         d41*d42 - 1/4*d43^2
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*q12*d23,
@@ -429,11 +429,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d41*q41 + 1/2*d43*q42,
         d42*q42 + 1/2*d43*q41
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -453,11 +453,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d33*q42 - q32*d43,
         q31*q42 - q32*q41
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -469,11 +469,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         q41,
         q42
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -513,11 +513,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
     ]
 ]
 [
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*q12*d23,
@@ -559,11 +559,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         q31*q42 - q32*q41,
         d41*d42 - 1/4*d43^2
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 8
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 16
     Groebner basis:
     [
         q11*d21 + 1/2*q12*d23,
@@ -611,11 +611,11 @@ Type ? for help.  Type <Ctrl>-D to quit.
         d41*q41 + 1/2*d43*q42,
         d42*q42 + 1/2*d43*q41
     ],
-    Ideal of Polynomial ring of rank 17 over Rational Field
+    Ideal of Polynomial ring of rank 25 over Rational Field
     Order: Lexicographical
     Variables: q11, q12, d21, d22, d23, q21, q22, d31, d32, d33, q31, q32, d41, 
-    d42, d43, q41, q42
-    Homogeneous, Dimension 9
+    d42, d43, q41, q42, p11, p12, p21, p22, p31, p32, p41, p42
+    Homogeneous, Dimension 17
     Groebner basis:
     [
         q11,
@@ -637,4 +637,4 @@ Type ? for help.  Type <Ctrl>-D to quit.
     ]
 ]
 
-Total time: 3841.759 seconds, Total memory usage: 85.91MB
+Total time: 4664.770 seconds, Total memory usage: 89.34MB
