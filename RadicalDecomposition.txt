@@ -4,9 +4,6 @@
 F:=RationalField();
 
 // Define a polynomial ring in 25 variables (assuming \Phi_1 is 0 and p variables have been eliminated): here, \Phi is denoted d.  
-// NB: Although the defining equations for T^E, T^F, S^E, S^F do not involve the variables p_i, we keep them in the affine space
-// we work over.  This simplifies the mathematical arguments for establishing that T, S have the same Z_d rational points
-// and adds little computational overhead versus the alternative of removing them entirely.
 R<q11,q12,
 d21,d22,d23,q21,q22,
 d31,d32,d33,q31,q32,
